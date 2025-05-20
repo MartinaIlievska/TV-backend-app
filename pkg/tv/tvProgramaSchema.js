@@ -6,7 +6,7 @@ const tvProgramaSchema = new mongoose.Schema({
     required: true,
   },
   time: {
-    type: Date,
+    type: Number,
     required: true,
   },
   genre: {
